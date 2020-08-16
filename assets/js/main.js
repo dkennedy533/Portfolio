@@ -188,3 +188,19 @@
 			});
 
 })(jQuery);
+
+
+let quotes = [
+	" 'A problem well-put is half-solved.' –John Dewey",
+	" 'It’s what you learn after you know it all that counts.’ –Harry S Truman ",
+	" ‘The ability to speak exactly is intimately related to the ability to know exactly.’ –Wendell Berry ",
+	" ‘The task of the modern educator is not to cut down jungles but to irrigate deserts.’  – C.S. Lewis ",
+	" 'Tell me and I forget. Teach me and I remember. Involve me and I learn.' -Benjamin Franklin "
+]
+
+function newQuote() {
+    let randomNumber = Math.floor(Math.random() * (quotes.length));
+    document.getElementById("quoteDisplay").innerHTML = quotes[randomNumber];
+}
+
+newQuote();
