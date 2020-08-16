@@ -1,10 +1,6 @@
 @import url(fontawesome-all.min.css);
 
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1977,28 +1973,28 @@ input, select, textarea {
 				};
 
 
-	
-	.recipe{
+
+.gif1{
 		height: 200px;
 		width: auto;
-		background: url("https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60");
+		background: url("https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
 		margin:1em; 
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center center;
-		transition: transform .2s;
+		transition: transform .17s;
 	}
 	
-	.recipe:hover {
+.gif1:hover {
 		cursor:pointer; 
 			background:url('https://github.com/dkennedy533/Recipes/blob/gh-pages/Recipes%20Demo.gif?raw=true');
 			background-size: contain;
 			background-repeat: no-repeat;
 			background-position: center center;
-			transform: scale(1.38); 
+			transform: scale(1.45); 
 	}
 
-	.gif {
+.gif2 {
 	height: 200px;
 	width: auto;
 	background: url("https://neilpatel.com/wp-content/uploads/2017/08/colors.jpg");
@@ -2008,41 +2004,98 @@ input, select, textarea {
 	background-position: center center;
 	transition: transform .17s;
 }
- .gif:hover {
+
+.gif2:hover {
 	cursor:pointer; 
-		background:url('https://raw.githubusercontent.com/dkennedy533/Color-Guessing-Game/master/Color%20Game%20GIF.gif');
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center center;
-		transform: scale(1.4); 
-}
-
-
-
-.gifCard {
-	height: 200px;
-	width: auto;
-	background: url("https://cdn.pixabay.com/photo/2017/06/02/18/24/fruit-2367029_960_720.jpg");
-	margin-left: auto;
-	margin-right: auto; 
+	background:url('https://raw.githubusercontent.com/dkennedy533/Color-Guessing-Game/master/Color%20Game%20GIF.gif');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
-	transition: transform .2s;
-	  }
-	  
-.gifCard:hover {
-		cursor:pointer; 
-		background:url('https://github.com/dkennedy533/Recipes/blob/gh-pages/Recipes%20Demo.gif?raw=true');
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center center;
-		transform: scale(1.4); 
-		 
-	};
+	transform: scale(1.45); 
+}
+
+.gif3{
+	height: 200px;
+	width: auto;
+	background: url("https://img.nbc.com/sites/nbcunbc/files/images/2016/1/19/MDot-TheOffice-640x360-MP.jpg");
+	margin:1em; 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: transform .17s;
+}
+
+.gif3:hover {
+	cursor:pointer; 
+	background:url('https://github.com/dkennedy533/The-office/blob/master/Office%20recording%20optimized.gif?raw=true');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transform: scale(1.45); 
+}
+
+.gif4 {
+	height: 200px;
+	width: auto;
+	background: url("https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+	margin:1em; 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: transform .17s;
+}
+
+.gif4:hover {
+	cursor:pointer; 
+	background:url('https://github.com/dkennedy533/Recipes/blob/gh-pages/short%20recipe%20demo.gif?raw=true');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transform: scale(1.45); 
+
+}
 
 
+.gif5 {
+	height: 215px;
+	width: auto;
+	background: url("https://images.unsplash.com/photo-1457523054379-8d03ab9fc2aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+	margin:1em; 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: transform .17s;
+}
 
+.gif5:hover {
+	cursor:pointer; 
+	background:url('https://github.com/dkennedy533/Pata-Tap-Concept/blob/master/PataTap%20Clone%20recording.gif?raw=true');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transform: scale(1.45); 
+
+}
+
+.gif6 {
+	height: 215px;
+	width: auto;
+	background: url("https://filmdaily.co/wp-content/uploads/2018/01/Nicolas-Cage.jpg");
+	margin:1em; 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: transform .17s;
+}
+
+.gif6:hover {
+	cursor:pointer; 
+	background:url('https://github.com/dkennedy533/In-The-Cage/blob/master/In%20the%20Cage%20Demo.gif?raw=true');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transform: scale(1.45); 
+}
 
 
 
